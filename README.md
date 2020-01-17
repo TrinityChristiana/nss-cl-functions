@@ -1,9 +1,8 @@
-# Name of Repo
+# Class Lesson: Functions
 
-Date Created: 01/00/20 | Date Modified: 01/00/20
+Date Created: 01/17/20 | Date Modified: 01/17/20
 
-This assignment is practice for Book 0: Chapter 0 of NSS's course work. Link to the assignment: 
+This is the codealong for the class lesson teaching Functions
 
 Preview Assignment: 
 ***
-# nss-cl-functions
