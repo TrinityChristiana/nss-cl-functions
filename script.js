@@ -19,7 +19,19 @@ dogOwners("Ada Grace", "Kristen");
 dogOwners("Raleigh", "Margaret");
 dogOwners("Francis", "Jane");
 
-// Impure functions produce a different output with iffferent inputs, or affects another part of the function
-let random = (num) => {
-    Math.random() * 
+// Impure functions produce a different output with different inputs, or affects another part of the function
+let randomNumbers = (num) => {
+    const newNumber = Math.random() * num;
+    console.log(newNumber);
+};
+
+console.log("Impure Function");
+randomNumbers(5);
+randomNumbers(5);
+
+const addGreen = (domElement) => {
+    const element = document.querySelector(domElement);
+    element.classList.add("green");
 }
+
+addGreen("#impure");
